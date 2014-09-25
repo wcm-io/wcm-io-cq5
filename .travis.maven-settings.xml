@@ -58,19 +58,6 @@
         </repository>
 
         <repository>
-          <id>oss-snapshots</id>
-          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-          <layout>default</layout>
-          <releases>
-            <enabled>false</enabled>
-          </releases>
-          <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-          </snapshots>
-        </repository>
-
-        <repository>
           <id>wcm-io-apache-intermediate-release</id>
           <url>http://wcm.io/maven/repositories/apache-intermediate-release</url>
           <layout>default</layout>
@@ -84,8 +71,21 @@
         </repository>
 
         <repository>
-          <id>wcm-io-apache-snapshots</id>
-          <url>http://wcm.io/maven/repositories/apache-snapshots</url>
+          <id>oss-snapshots</id>
+          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+
+        <repository>
+          <id>apache-snapshots</id>
+          <url>http://repository.apache.org/snapshots</url>
           <layout>default</layout>
           <releases>
             <enabled>false</enabled>
@@ -127,19 +127,6 @@
         </pluginRepository>
 
         <pluginRepository>
-          <id>oss-snapshots</id>
-          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-          <layout>default</layout>
-          <releases>
-            <enabled>false</enabled>
-          </releases>
-          <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-          </snapshots>
-        </pluginRepository>
-
-        <pluginRepository>
           <id>wcm-io-apache-intermediate-release</id>
           <url>http://wcm.io/maven/repositories/apache-intermediate-release</url>
           <layout>default</layout>
@@ -153,8 +140,21 @@
         </pluginRepository>
 
         <pluginRepository>
-          <id>wcm-io-apache-snapshots</id>
-          <url>http://wcm.io/maven/repositories/apache-snapshots</url>
+          <id>oss-snapshots</id>
+          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </pluginRepository>
+
+        <pluginRepository>
+          <id>apache-snapshots</id>
+          <url>http://repository.apache.org/snapshots</url>
           <layout>default</layout>
           <releases>
             <enabled>false</enabled>
