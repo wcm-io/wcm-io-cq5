@@ -39,6 +39,7 @@
   <description>Root POM for wcm.io Maven hierarchy.</description>
 
   <modules>
+    <module>parent_toplevel</module>
     <module>sling</module>
   </modules>
 
