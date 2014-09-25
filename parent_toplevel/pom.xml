@@ -36,7 +36,6 @@
 
   <name>Toplevel Parent (CQ5)</name>
   <description>Toplevel POM for all wcm.io Maven projects.</description>
-  <url>${site.url}/${site.url.module.prefix}/</url>
 
   <scm>
     <connection>scm:git:git@github.com:wcm-io/wcm-io-cq5.git</connection>
@@ -125,7 +124,7 @@
       <dependency>
         <groupId>io.wcm.maven</groupId>
         <artifactId>io.wcm.maven.aem-dependencies</artifactId>
-        <version>5.5.0.0000-SNAPSHOT</version>
+        <version>5.5.0.0000</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
