@@ -1,4 +1,4 @@
-wcm-io for CQ5
+<img src="http://wcm.io/images/favicon-16@2x.png"/> wcm-io for CQ5
 ==============
 
 wcm.io is an Open Source project which provides libraries and extensions for AEM-based applications.
