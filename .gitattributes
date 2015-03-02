@@ -5,14 +5,34 @@
 *.cs text eol=crlf
 *.csproj text eol=crlf
 *.sln text eol=crlf
+*.vb text eol=crlf
 
 # Denote all files that are truly binary and should not be modified.
+*.accdb binary
+*.ai binary
+*.ico binary
+*.indd binary
+*.jar binary
+*.doc binary
+*.docx binary
+*.ear binary
+*.eot binary
+*.fla binary
 *.gif binary
-*.png binary
 *.jpg binary
 *.jpeg binary
-*.zip binary
-*.jar binary
+*.mdb binary
+*.mpp binary
 *.pdf binary
+*.png binary
+*.ppt binary
+*.pptx binary
+*.tif binary
+*.VSD binary
+*.war binary
+*.woff binary
+*.woff2 binary
+*.xls binary
+*.xlsx binary
+*.zip binary
 *.ttf binary
-*.eot binary
