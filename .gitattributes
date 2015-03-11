@@ -1,38 +1,50 @@
-* text eol=lf
+# Declare text files with unix file ending
+*.conf text eol=lf
+*.config text eol=lf
+*.css text eol=lf
+*.dtd text eol=lf
+*.esp text eol=lf
+*.ecma text eol=lf
+*.hbrs text eol=lf
+*.htm text eol=lf
+*.html text eol=lf
+*.java text eol=lf
+*.jpage text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.jsp text eol=lf
+*.mustache text eol=lf
+*.tld text eol=lf
+*.launch text eol=lf
+*.log text eol=lf
+*.php text eol=lf
+*.pl text eol=lf
+*.project text eol=lf
+*.properties text eol=lf
+*.props text eol=lf
+*.sass text eol=lf
+*.scss text eol=lf
+*.sh text eol=lf
+*.shtm text eol=lf
+*.shtml text eol=lf
+*.sql text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
+*.vm text eol=lf
+*.xml text eol=lf
+*.xsd text eol=lf
+*.xsl text eol=lf
+*.xslt text eol=lf
 
-# Declare files that will always have CRLF line endings on checkout.
+
+# Declare windows-specific text files with windows file ending
+*.asp text eol=crlf
+*.asax text eol=crlf
+*.asa text eol=crlf
+*.aspx text eol=crlf
+*.bat text eol=crlf
 *.cmd text eol=crlf
 *.cs text eol=crlf
 *.csproj text eol=crlf
+*.reg text eol=crlf
 *.sln text eol=crlf
-*.vb text eol=crlf
-
-# Denote all files that are truly binary and should not be modified.
-*.accdb binary
-*.ai binary
-*.ico binary
-*.indd binary
-*.jar binary
-*.doc binary
-*.docx binary
-*.ear binary
-*.eot binary
-*.fla binary
-*.gif binary
-*.jpg binary
-*.jpeg binary
-*.mdb binary
-*.mpp binary
-*.pdf binary
-*.png binary
-*.ppt binary
-*.pptx binary
-*.tif binary
-*.VSD binary
-*.war binary
-*.woff binary
-*.woff2 binary
-*.xls binary
-*.xlsx binary
-*.zip binary
-*.ttf binary
